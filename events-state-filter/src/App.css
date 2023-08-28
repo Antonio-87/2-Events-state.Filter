@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+button {
+    border: none;
+    background-color: white;
+    border: 1.5px solid gray;
+    margin-top: 1%;
+    padding: 1% 1%;
+}
+
+button:nth-child(n+2) {
+    margin-left: 1%;
+}
+
+.active {
+    background-color: gray;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+    flex-grow: 1;
+}
