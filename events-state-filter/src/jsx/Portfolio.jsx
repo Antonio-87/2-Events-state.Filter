@@ -1,7 +1,7 @@
 import React from "react";
-import projects from "./projects";
 import Toolbar from "./Toolbar";
 import ProjectList from "./ProjectList";
+import projects from "../assets/projects";
 
 export default class Portfolio extends React.Component {
   constructor(props) {
